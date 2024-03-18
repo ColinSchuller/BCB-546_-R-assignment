@@ -1,0 +1,28 @@
+---
+title: "Comments"
+author: "Colin Schuller"
+date: "2024-03-18"
+output: html_document
+---
+
+Peer review March 18th, 2024 by Colin Schuller
+
+# Importing the data:
+I suggest to not use a local directory when reading these files, rather try using this command to help read directly off the course GitHub page
+
+fang_et_al <- read.delim("https://github.com/EEOB-BioData/BCB546_Spring2024/blob/main/assignments/UNIX_Assignment/fang_et_al_genotypes.txt?raw=true", header = TRUE, sep = "\t")
+
+snp_positions <- read.delim("https://github.com/EEOB-BioData/BCB546_Spring2024/blob/main/assignments/UNIX_Assignment/snp_position.txt?raw=true", header = TRUE, sep = "\t")
+
+This verson should work with your code and import the correct files to your workspace without having to pull from a local directory.
+
+
+# Overall data flow: 
+I understood your workflow very well, however I was tripped up by identifying duplicate column names, mostly because I did not think about trying this in my own assignment.
+Overall, it looks great no issues with the code.
+
+# Data Visualization:
+Plots look great, I understand what each one is trying to convey.
+
+
+Great work on your assignment!
